@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m
-  path: ./deploy
+  path: .  # Set path to the current directory where your manifests are located
   prune: true
   sourceRef:
     kind: GitRepository
